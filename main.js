@@ -24,6 +24,12 @@ function hideContent () {
 
   // Hide question stats while on the problem's page
   $('span[class~="pull-right"]').hide();
+
+  // Hide like/dislike
+  $('.like-buttons').hide();
+
+  // Hide next challenges
+  $('span[class="next-challenge-list"]').hide();
 }
 
 $(function () {
